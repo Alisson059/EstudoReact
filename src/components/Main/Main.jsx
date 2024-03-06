@@ -8,6 +8,8 @@ import './Main.css'
 import Equipe from '../../Equipe/Equipe'
 
 
+
+
 const Main = () => {
 
     return (
