@@ -1,36 +1,24 @@
-import Image from '../../images/imagem 1.webp'
-import Image2 from '../../images/imagem 2.jpg'
-import Image3 from '../../images/image 3.webp'
-import Image4 from '../../images/HomemAranha.png'
-import Image5 from '../../images/HomemAranha2.png'
-import Image6 from '../../images/HomemAranha3.png'
-
+import Image6 from '../../images/venom.png'
+import Image5 from '../../images/Doutor.png'
+import Image4 from '../../images/DuendeVerde.png'
+import Image3 from '../../images/HomemAranha.png'
+import Image2 from '../../images/HomemAranha2.png'
+import Image1 from '../../images/HomemAranha3.png'
 import './Main.css'
-import Perfil from '../Perfil/Perfil/';
+import Equipe from '../../Equipe/Equipe'
+
 
 const Main = () => {
 
     return (
-        <>
-            <h1 className='t-center'>DeadCells</h1>
-            <div className='perfis'>
-                
-                <Perfil img={Image} titulo={'Image'}/> 
-                <Perfil img={Image2} titulo={'Image2'}/>
-                <Perfil img={Image3} titulo={'Image3'}/>
+        <main>
+            <Equipe titulo={'Titulo 1'} img1={Image1} nome1={"Imagem1"} img2={Image2} nome2={"Imagem2"} img3={Image3} nome3={"Imagem3"}/>
+            <Equipe titulo={'Titulo 2'} img1={Image4} nome1={"Duende Verde"} img2={Image5} nome2={"Doutor Octopus"} img3={Image6} nome3={"Venom"}/>
+            
 
-            </div>
+        </main>
 
-            <h1 className='t-center'>DeadCells</h1>
-            <div className='perfis'>
-                
-                <Perfil img={Image4} titulo={'Image'}/> 
-                <Perfil img={Image5} titulo={'Image2'}/>
-                <Perfil img={Image6} titulo={'Image3'}/>
-
-            </div>
-
-        </>
+     
     )
 
 }

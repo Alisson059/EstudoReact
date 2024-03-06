@@ -1,21 +1,24 @@
 import './App.css'
-
+import Descricao from './Descricao/Descricao';
+ 
 import Header from './components/Header/header';
 import Main from './components/Main/Main'
-
+ 
 function App() {
-
+ 
   return (
-
+ 
     <div>
-
-      <Header />
-
-      <Main />
-
+ 
+      {/* <Header />
+ 
+      <Main /> */}
+ 
+      <Descricao />
+ 
     </div>
-
+ 
   )
 }
-
+ 
 export default App
